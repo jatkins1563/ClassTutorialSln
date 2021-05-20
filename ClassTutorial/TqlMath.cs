@@ -6,6 +6,11 @@ namespace ClassTutorial
 {
     class TqlMath
     {
+        public TqlMath(int a, int B)
+        {
+            A = a;
+            this.B = B;
+        }
         public int A { get; set; }
         public int B { get; set; }
 
